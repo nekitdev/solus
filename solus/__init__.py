@@ -18,7 +18,7 @@ __url__ = "https://github.com/nekitdev/solus"
 __title__ = "solus"
 __author__ = "nekitdev"
 __license__ = "MIT"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from solus.core import (
     Singleton, SingletonType, UnsafeSingleton, UnsafeSingletonType, singleton, unsafe_singleton

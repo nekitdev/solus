@@ -50,7 +50,7 @@ Or by directly specifying it in the configuration like so:
 
 ```toml
 [tool.poetry.dependencies]
-solus = "^1.0.0"
+solus = "^1.0.1"
 ```
 
 Alternatively, you can add it directly from the source:
@@ -154,5 +154,5 @@ If you are interested in contributing to `solus`, make sure to take a look at th
 [Test Badge]: https://github.com/nekitdev/solus/workflows/test/badge.svg
 [Coverage Badge]: https://codecov.io/gh/nekitdev/solus/branch/main/graph/badge.svg
 
-[solus.core.Singleton]: https://nekitdev.github.io/solus/reference#solus.core.Singleton
-[solus.core.UnsafeSingleton]: https://nekitdev.github.io/solus/reference#solus.core.UnsafeSingleton
+[solus.core.Singleton]: https://nekitdev.github.io/solus/reference#solus.Singleton
+[solus.core.UnsafeSingleton]: https://nekitdev.github.io/solus/reference#solus.UnsafeSingleton
