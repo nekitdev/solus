@@ -638,7 +638,7 @@ abstracted away by this library.</p>
 </code></pre></div>
 <p>Or by directly specifying it in the configuration like so:</p>
 <div class="highlight"><pre><span></span><code><span class="k">[tool.poetry.dependencies]</span><span class="w"></span>
-<span class="n">solus</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;^1.0.0&quot;</span><span class="w"></span>
+<span class="n">solus</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;^1.0.1&quot;</span><span class="w"></span>
 </code></pre></div>
 <p>Alternatively, you can add it directly from the source:</p>
 <div class="highlight"><pre><span></span><code><span class="k">[tool.poetry.dependencies.solus]</span><span class="w"></span>
@@ -646,7 +646,7 @@ abstracted away by this library.</p>
 </code></pre></div>
 <h2 id="examples">Examples</h2>
 <h3 id="default">Default</h3>
-<p><a href="https://nekitdev.github.io/solus/reference#solus.core.Singleton"><code>Singleton</code></a> type is used to create <em>thread-safe</em> singletons.</p>
+<p><a href="https://nekitdev.github.io/solus/reference#solus.Singleton"><code>Singleton</code></a> type is used to create <em>thread-safe</em> singletons.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">solus</span> <span class="kn">import</span> <span class="n">Singleton</span>
 
 
@@ -657,7 +657,7 @@ abstracted away by this library.</p>
 <div class="highlight"><pre><span></span><code><span class="n">null</span> <span class="o">=</span> <span class="n">Null</span><span class="p">()</span>  <span class="c1"># instantiate</span>
 </code></pre></div>
 <h3 id="unsafe">Unsafe</h3>
-<p><a href="https://nekitdev.github.io/solus/reference#solus.core.UnsafeSingleton"><code>UnsafeSingleton</code></a> type is used to create <em>thread-unsafe</em> singletons.</p>
+<p><a href="https://nekitdev.github.io/solus/reference#solus.UnsafeSingleton"><code>UnsafeSingleton</code></a> type is used to create <em>thread-unsafe</em> singletons.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">solus</span> <span class="kn">import</span> <span class="n">UnsafeSingleton</span>
 
 
