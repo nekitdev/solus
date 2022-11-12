@@ -12,12 +12,6 @@
 
 > *Singleton types.*
 
-In python, an *entry point* can be thought of as an explicit function
-that gets called when the script is run directly from the console.
-
-Defining an entry point requires some boilerplate code, which is
-abstracted away by this library.
-
 ## Installing
 
 **Python 3.7 or above is required.**
@@ -50,7 +44,7 @@ Or by directly specifying it in the configuration like so:
 
 ```toml
 [tool.poetry.dependencies]
-solus = "^1.0.1"
+solus = "^1.1.0"
 ```
 
 Alternatively, you can add it directly from the source:
