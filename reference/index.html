@@ -628,7 +628,7 @@
 <span class="normal">30</span>
 <span class="normal">31</span>
 <span class="normal">32</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">UnsafeSingletonType</span><span class="p">(</span><span class="nb">type</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The *unsafe* singleton meta type, used to implement *unsafe* singleton types.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The *unsafe* singleton meta type, used to implement *unsafe* singleton types.&quot;&quot;&quot;</span>
 
     <span class="n">_INSTANCES</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># type: ignore</span>
 
@@ -686,7 +686,7 @@
 <span class="normal">37</span>
 <span class="normal">38</span>
 <span class="normal">39</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">UnsafeSingleton</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">UnsafeSingletonType</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The *unsafe* singleton type.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The *unsafe* singleton type.&quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">get_type_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
@@ -752,7 +752,7 @@
 <span class="normal">61</span>
 <span class="normal">62</span>
 <span class="normal">63</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">SingletonType</span><span class="p">(</span><span class="nb">type</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The singleton meta type, used to implement singleton types.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The singleton meta type, used to implement singleton types.&quot;&quot;&quot;</span>
 
     <span class="n">_INSTANCES</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># type: ignore</span>
     <span class="n">_LOCK</span> <span class="o">=</span> <span class="n">Lock</span><span class="p">()</span>
@@ -816,7 +816,7 @@
 <span class="normal">68</span>
 <span class="normal">69</span>
 <span class="normal">70</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">Singleton</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">SingletonType</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;The singleton type.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The singleton type.&quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">get_type_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
