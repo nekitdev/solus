@@ -47,7 +47,7 @@ version = "5.11.5"
 optional = true
 
 [tool.poetry.group.check.dependencies]
-mypy = "1.0.1"
+mypy = "1.2.0"
 
 [tool.poetry.group.test]
 optional = true
