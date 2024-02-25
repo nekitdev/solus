@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "solus"
-version = "1.2.0"
+version = "1.2.1"
 description = "Singleton types."
 authors = ["nekitdev"]
 license = "MIT"
@@ -90,7 +90,7 @@ strict = true
 
 [tool.changelogging]
 name = "solus"
-version = "1.2.0"
+version = "1.2.1"
 url = "https://github.com/nekitdev/solus"
 directory = "changes"
 output = "CHANGELOG.md"
