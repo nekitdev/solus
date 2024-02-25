@@ -18,10 +18,15 @@ __url__ = "https://github.com/nekitdev/solus"
 __title__ = "solus"
 __author__ = "nekitdev"
 __license__ = "MIT"
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 
 from solus.core import (
-    Singleton, SingletonType, UnsafeSingleton, UnsafeSingletonType, singleton, unsafe_singleton
+    Singleton,
+    SingletonType,
+    UnsafeSingleton,
+    UnsafeSingletonType,
+    singleton,
+    unsafe_singleton,
 )
 
 __all__ = (
