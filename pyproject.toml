@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "solus"
-version = "1.2.1"
+version = "1.2.2"
 description = "Singleton types."
 authors = ["nekitdev"]
 license = "MIT"
@@ -32,13 +32,17 @@ include = "solus"
 [tool.poetry.dependencies]
 python = ">= 3.8"
 
-named = "^1.4.0"
+named = ">= 1.4.1"
 
 [tool.poetry.group.format.dependencies]
 ruff = "0.2.2"
 
 [tool.poetry.group.check.dependencies]
 mypy = "1.8.0"
+
+[tool.poetry.group.check.dependencies.pre-commit]
+version = "3.6.2"
+python = ">= 3.9"
 
 [tool.poetry.group.test.dependencies]
 coverage = "7.4.3"
@@ -57,7 +61,7 @@ version = "0.24.0"
 extras = ["python"]
 
 [tool.poetry.group.dev.dependencies]
-changelogging = "1.4.0"
+changelogging = "1.4.1"
 
 [tool.ruff]
 line-length = 100
@@ -90,7 +94,7 @@ strict = true
 
 [tool.changelogging]
 name = "solus"
-version = "1.2.1"
+version = "1.2.2"
 url = "https://github.com/nekitdev/solus"
 directory = "changes"
 output = "CHANGELOG.md"

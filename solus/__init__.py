@@ -18,7 +18,7 @@ __url__ = "https://github.com/nekitdev/solus"
 __title__ = "solus"
 __author__ = "nekitdev"
 __license__ = "MIT"
-__version__ = "1.2.1"
+__version__ = "1.2.2"
 
 from solus.core import (
     Singleton,
